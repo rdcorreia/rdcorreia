@@ -1,0 +1,9 @@
+baseURL = "http://hugo-git.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Hugo AWS CD"
+# theme = "hello-friend-ng"
+theme = "ananke"
+[[deployment.targets]]
+# hugo aws cd
+name = "hugo-git"
+URL = "s3://hugo-git/?region=us-east-1"
